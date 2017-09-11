@@ -157,6 +157,17 @@ public class EasyToast {
         mToast.show();
     }
 
+    public static void custom(Context context, String msg, int toastBackgroundColor, int toastTextColor, int duration) {
+        mInflater = LayoutInflater.from(context);
+        mView = mInflater.inflate(R.layout.simpletoast, null);
+        setButtonMessage(msg, toastTextColor);
+        setLayout(true, toastBackgroundColor);
+        mToast = new Toast(context);
+        mToast.setView(mView);
+        mToast.setDuration(duration);
+        mToast.show();
+    }
+
     public static void custom(Context context, String msg, int resId, int toastBackgroundColor, int toastTextColor, int duration) {
         mInflater = LayoutInflater.from(context);
         mView = mInflater.inflate(R.layout.simpletoast, null);
