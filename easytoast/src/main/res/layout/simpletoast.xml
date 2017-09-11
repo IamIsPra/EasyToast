@@ -18,16 +18,17 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/imgStatus"
+        android:layout_toRightOf="@+id/imgStatus"
         android:background="@android:color/transparent"
         android:paddingBottom="10sp"
         android:paddingLeft="10sp"
         android:paddingRight="10sp"
         android:paddingTop="10sp"
         android:text="Text Here"
+        android:textAllCaps="false"
         android:textColor="#FFFFFF"
-        android:textSize="14sp"
-        android:layout_centerVertical="true"
-        android:layout_toRightOf="@+id/imgStatus"
-        android:layout_toEndOf="@+id/imgStatus" />
+        android:textSize="14sp" />
 
 </RelativeLayout>
