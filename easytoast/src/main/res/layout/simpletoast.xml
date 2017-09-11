@@ -11,8 +11,7 @@
         android:layout_marginBottom="5sp"
         android:layout_marginLeft="7sp"
         android:layout_marginStart="7sp"
-        android:layout_marginTop="7sp"
-        android:src="@drawable/success" />
+        android:layout_marginTop="7sp" />
 
     <Button
         android:id="@+id/button"
