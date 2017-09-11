@@ -109,8 +109,8 @@ public class EasyToast {
     public static void warning(Context context, CharSequence text, int duration) {
         mInflater = LayoutInflater.from(context);
         mView = mInflater.inflate(R.layout.simpletoast, null);
-        setButtonMessage(text);
-        setImageView(R.drawable.warning);
+        setButtonMessage(text, Color.BLACK);
+        setImageView(R.drawable.warning, Color.BLACK);
         setLayout(R.drawable.round_warning);
         mToast = new Toast(context);
         mToast.setView(mView);
@@ -121,7 +121,7 @@ public class EasyToast {
     public static void warning(Context context, CharSequence text, int resId, int duration) {
         mInflater = LayoutInflater.from(context);
         mView = mInflater.inflate(R.layout.simpletoast, null);
-        setButtonMessage(text);
+        setButtonMessage(text, Color.BLACK);
         setImageView(resId);
         setLayout(R.drawable.round_warning);
         mToast = new Toast(context);
