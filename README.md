@@ -1,6 +1,7 @@
 # EasyToast
 Just another custom Android Toast 🍞 but We have Butter and Jam 😍
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-EasyToast-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/6209)
 [![](https://jitpack.io/v/IsPra94/EasyToast.svg)](https://jitpack.io/#IsPra94/EasyToast)
 <a href="http://www.methodscount.com/?lib=com.github.IsPra94%3AEasyToast%3A1.0.0"><img src="https://img.shields.io/badge/Size-29 KB-e91e63.svg"/></a>
 [![API](https://img.shields.io/badge/API-11%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=11)
